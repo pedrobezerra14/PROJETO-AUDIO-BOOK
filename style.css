@@ -29,6 +29,7 @@ header{
 .home:hover{
   text-decoration: underline;
   color: #7e7e7e;
+  color: #d6d6ea;
 }
 
 .container-aplicativo {
