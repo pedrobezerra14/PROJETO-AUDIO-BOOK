@@ -1,10 +1,12 @@
 body {
-  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: #000;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header{
@@ -29,6 +31,7 @@ header{
 .home:hover{
   text-decoration: underline;
   color: #7e7e7e;
+  color: #d6d6ea;
 }
 
 .container-aplicativo {
@@ -81,6 +84,7 @@ button {
 .librivox{
   color: #ffffff;
   text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
   padding: 5px;
 }
@@ -89,7 +93,6 @@ button {
   text-decoration: underline;
   color: #000000;
 }
-
 
 #anterior, #proximo {
   font-size: 3rem;
